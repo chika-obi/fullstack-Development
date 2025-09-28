@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Register | CS CBT Portal</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    /* ---------- Registration Page Styling ---------- */
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+    }
+
+    .register-container {
+      background: #fff;
+      width: 100%;
+      max-width: 420px;
+      padding: 40px 35px;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      text-align: center;
+      animation: fadeIn 0.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .register-container h1 {
+      color: #2e7d32;
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+
+    .register-container p {
+      color: #555;
+      margin-bottom: 25px;
+      font-size: 15px;
+    }
+
+    .register-container form {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      text-align: left;
+    }
+
+    label {
+      font-weight: 600;
+      font-size: 14px;
+      margin-bottom: 4px;
+      color: #2e2e2e;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      font-size: 15px;
+      border: 1.8px solid #cfd8dc;
+      border-radius: 8px;
+      outline: none;
+      transition: border 0.3s ease;
+    }
+
+    input:focus {
+      border-color: #2e7d32;
+      box-shadow: 0 0 0 2px rgba(46, 125, 50, 0.2);
+    }
+
+    .btn {
+      background: #2e7d32;
+      color: #fff;
+      padding: 14px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      margin-top: 10px;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #256728;
+    }
+
+    .error {
+      color: #c62828;
+      font-size: 14px;
+      margin-top: -10px;
+      margin-bottom: 5px;
+      display: none;
+    }
+
+    .login-link {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #444;
+    }
+
+    .login-link a {
+      color: #2e7d32;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .login-link a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 500px) {
+      .register-container {
+        margin: 0 15px;
+        padding: 30px 25px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="register-container">
+    <h1>🎓 Create Your Account</h1>
+    <p>Join the Computer Science CBT Platform and start practicing today!</p>
+
+    <form id="registerForm">
+      <div>
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" placeholder="John Doe" required />
+      </div>
+
+      <div>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="example@email.com" required />
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="********" minlength="6" required />
+      </div>
+
+      <div>
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" id="confirmPassword" placeholder="********" required />
+        <div class="error" id="passwordError">⚠️ Passwords do not match.</div>
+      </div>
+
+      <button type="submit" class="btn">Create Account</button>
+    </form>
+
+    <div class="login-link">
+      Already have an account? <a href="pages\index.html">Login here</a>
+    </div>
+  </div>
+
+  <script>
+    const form = document.getElementById("registerForm");
+    const passwordError = document.getElementById("passwordError");
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+
+      const fullName = document.getElementById("fullname").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const password = document.getElementById("password").value;
+      const confirmPassword = document.getElementById("confirmPassword").value;
+
+      // ✅ Basic validation
+      if (password !== confirmPassword) {
+        passwordError.style.display = "block";
+        return;
+      } else {
+        passwordError.style.display = "none";
+      }
+
+      // ✅ Save user to localStorage (for demo)
+      const user = {
+        fullName,
+        email,
+        password,
+        registeredAt: new Date().toISOString(),
+      };
+
+      localStorage.setItem("cs_cbt_user", JSON.stringify(user));
+
+      // ✅ Redirect to dashboard
+      alert("✅ Registration successful! Redirecting to your dashboard...");
+      window.location.href = "dashboard.html";
+    });
+  </script>
+</body>
+</html>
