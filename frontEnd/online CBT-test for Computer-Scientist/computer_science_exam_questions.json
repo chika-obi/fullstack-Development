@@ -1,0 +1,2010 @@
+{
+  "introduction_to_computer": [
+    {
+      "question": "What does CPU stand for?",
+      "options": {
+        "A": "Central Processing Unit",
+        "B": "Central Programming Unit",
+        "C": "Computer Performance Unit",
+        "D": "Control Processing Unit"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which component is considered the computer's temporary memory?",
+      "options": {
+        "A": "Hard Drive",
+        "B": "Random Access Memory (RAM)",
+        "C": "Read-Only Memory (ROM)",
+        "D": "Cache only"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which device is an input device?",
+      "options": {
+        "A": "Monitor",
+        "B": "Printer",
+        "C": "Keyboard",
+        "D": "Speaker"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What does ROM stand for?",
+      "options": {
+        "A": "Read-Only Memory",
+        "B": "Random Operating Memory",
+        "C": "Run-Only Memory",
+        "D": "Read Operating Manual"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of these is non-volatile storage?",
+      "options": {
+        "A": "RAM",
+        "B": "Cache",
+        "C": "SSD",
+        "D": "Registers"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the primary function of an operating system?",
+      "options": {
+        "A": "Compile code",
+        "B": "Manage hardware and software resources",
+        "C": "Design user interfaces",
+        "D": "Provide cloud services"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is an example of system software?",
+      "options": {
+        "A": "Word processor",
+        "B": "Web browser",
+        "C": "Device driver",
+        "D": "Spreadsheet"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which number system is binary?",
+      "options": {
+        "A": "Base-2",
+        "B": "Base-8",
+        "C": "Base-10",
+        "D": "Base-16"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What does 'booting' a computer mean?",
+      "options": {
+        "A": "Turning off the computer",
+        "B": "Installing software",
+        "C": "Starting up the computer and loading the OS",
+        "D": "Cleaning temporary files"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of the following is volatile memory?",
+      "options": {
+        "A": "HDD",
+        "B": "SSD",
+        "C": "ROM",
+        "D": "RAM"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "Which part of the CPU performs arithmetic and logical operations?",
+      "options": {
+        "A": "Control Unit",
+        "B": "Arithmetic Logic Unit (ALU)",
+        "C": "Cache",
+        "D": "Register File"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which technology stores data on magnetic disks?",
+      "options": {
+        "A": "SSD",
+        "B": "Optical",
+        "C": "HDD",
+        "D": "Flash"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of these is an operating system?",
+      "options": {
+        "A": "Apache",
+        "B": "Linux",
+        "C": "MySQL",
+        "D": "React"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which device translates domain names to IP addresses?",
+      "options": {
+        "A": "DHCP server",
+        "B": "Proxy server",
+        "C": "DNS server",
+        "D": "FTP server"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What does HTTP stand for?",
+      "options": {
+        "A": "HyperText Transfer Protocol",
+        "B": "High Transfer Text Protocol",
+        "C": "Hyperlinks Transfer Protocol",
+        "D": "HyperText Transmission Process"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of the following is a storage unit?",
+      "options": {
+        "A": "Byte",
+        "B": "Volt",
+        "C": "Hertz",
+        "D": "Ampere"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which component controls data flow within the CPU?",
+      "options": {
+        "A": "Control Unit",
+        "B": "ALU",
+        "C": "Cache",
+        "D": "Bus"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is firmware?",
+      "options": {
+        "A": "Software that never changes",
+        "B": "Low-level software stored in ROM that controls hardware",
+        "C": "An application program",
+        "D": "A cloud service"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of these is used for long-term backup and offline storage?",
+      "options": {
+        "A": "RAM",
+        "B": "Tape drive",
+        "C": "Cache",
+        "D": "CPU register"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What does BIOS do during startup?",
+      "options": {
+        "A": "Provides user interface",
+        "B": "Performs POST and initializes hardware",
+        "C": "Runs user applications",
+        "D": "Connects to Wi\u2011Fi"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is a primary function of a motherboard?",
+      "options": {
+        "A": "Store user files",
+        "B": "Connect and allow communication between components",
+        "C": "Render graphics",
+        "D": "Provide internet access"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is virtualization in computing?",
+      "options": {
+        "A": "Creating physical servers",
+        "B": "Running multiple virtual machines on a single physical host",
+        "C": "A type of database",
+        "D": "A programming language"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is an example of application software?",
+      "options": {
+        "A": "Windows kernel",
+        "B": "Linux kernel",
+        "C": "Microsoft Word",
+        "D": "BIOS"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which protocol is used to send email between servers?",
+      "options": {
+        "A": "FTP",
+        "B": "SMTP",
+        "C": "HTTP",
+        "D": "SSH"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What does GUI stand for?",
+      "options": {
+        "A": "General User Interface",
+        "B": "Graphical User Interface",
+        "C": "Global Unified Input",
+        "D": "Graphics Utility Interface"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is the smallest unit of data in a computer?",
+      "options": {
+        "A": "Bit",
+        "B": "Byte",
+        "C": "Nibble",
+        "D": "Word"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What does ASCII represent?",
+      "options": {
+        "A": "A programming language",
+        "B": "A character encoding standard",
+        "C": "A database model",
+        "D": "A network protocol"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is NOT a characteristic of SSD compared to HDD?",
+      "options": {
+        "A": "Faster access times",
+        "B": "No moving parts",
+        "C": "Higher mechanical failure rate",
+        "D": "Lower latency"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which term describes the speed at which data is transferred over a network?",
+      "options": {
+        "A": "Latency",
+        "B": "Bandwidth",
+        "C": "Voltage",
+        "D": "Throughput"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which device provides graphics processing acceleration?",
+      "options": {
+        "A": "CPU",
+        "B": "GPU",
+        "C": "SSD",
+        "D": "NIC"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is 'cloud computing'?",
+      "options": {
+        "A": "Running programs only on local machines",
+        "B": "On-demand computing resources delivered over the internet",
+        "C": "A type of CPU",
+        "D": "Data stored only on USB"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is a relational database language?",
+      "options": {
+        "A": "HTML",
+        "B": "SQL",
+        "C": "CSS",
+        "D": "JSON"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the function of a router in a network?",
+      "options": {
+        "A": "Store files",
+        "B": "Forward packets between networks",
+        "C": "Serve web pages",
+        "D": "Encrypt data"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is an example of an input device used in graphics tablets?",
+      "options": {
+        "A": "Mouse",
+        "B": "Stylus",
+        "C": "Keyboard",
+        "D": "Joystick"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which operation converts source code into machine code?",
+      "options": {
+        "A": "Linking",
+        "B": "Compilation",
+        "C": "Input/output",
+        "D": "Scheduling"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is an IP address used for?",
+      "options": {
+        "A": "Identify hardware drivers",
+        "B": "Identify a device on a network",
+        "C": "Encrypt network traffic",
+        "D": "Store files"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is a common measure of processor speed?",
+      "options": {
+        "A": "Bytes",
+        "B": "Hertz",
+        "C": "Liters",
+        "D": "Watts"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is used to protect against unauthorized access to a network?",
+      "options": {
+        "A": "Firewall",
+        "B": "Compiler",
+        "C": "Formatter",
+        "D": "SSD"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which file system is commonly used on Windows?",
+      "options": {
+        "A": "ext4",
+        "B": "NTFS",
+        "C": "APFS",
+        "D": "FAT32 only"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is a logic gate that outputs true only when both inputs are true?",
+      "options": {
+        "A": "OR",
+        "B": "NOT",
+        "C": "AND",
+        "D": "XOR"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What does DHCP do in a network?",
+      "options": {
+        "A": "Translate domain names",
+        "B": "Automatically assign IP addresses",
+        "C": "Encrypt traffic",
+        "D": "Block ports"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is TRUE about open-source software?",
+      "options": {
+        "A": "Source code is closed",
+        "B": "Users can view and modify source code",
+        "C": "It is always free of charge",
+        "D": "It cannot be commercialized"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which describes 'multitasking' in an OS?",
+      "options": {
+        "A": "Running one process at a time",
+        "B": "Running multiple processes seemingly simultaneously",
+        "C": "Turning off processes",
+        "D": "Only running background tasks"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is 'cache' used for in computing?",
+      "options": {
+        "A": "Long-term storage",
+        "B": "Short-term, faster access storage for frequently used data",
+        "C": "Backing up data to cloud",
+        "D": "Compiling programs"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Intro placeholder #45: What is Computer Science concerned with?",
+      "options": {
+        "A": "Designing hardware only",
+        "B": "Study of computation, algorithms, and systems",
+        "C": "Only building websites",
+        "D": "Only databases"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Intro placeholder #46: What is Computer Science concerned with?",
+      "options": {
+        "A": "Designing hardware only",
+        "B": "Study of computation, algorithms, and systems",
+        "C": "Only building websites",
+        "D": "Only databases"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Intro placeholder #47: What is Computer Science concerned with?",
+      "options": {
+        "A": "Designing hardware only",
+        "B": "Study of computation, algorithms, and systems",
+        "C": "Only building websites",
+        "D": "Only databases"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Intro placeholder #48: What is Computer Science concerned with?",
+      "options": {
+        "A": "Designing hardware only",
+        "B": "Study of computation, algorithms, and systems",
+        "C": "Only building websites",
+        "D": "Only databases"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Intro placeholder #49: What is Computer Science concerned with?",
+      "options": {
+        "A": "Designing hardware only",
+        "B": "Study of computation, algorithms, and systems",
+        "C": "Only building websites",
+        "D": "Only databases"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Intro placeholder #50: What is Computer Science concerned with?",
+      "options": {
+        "A": "Designing hardware only",
+        "B": "Study of computation, algorithms, and systems",
+        "C": "Only building websites",
+        "D": "Only databases"
+      },
+      "correct": "B"
+    }
+  ],
+  "html": [
+    {
+      "question": "What does HTML stand for?",
+      "options": {
+        "A": "Hyper Text Markup Language",
+        "B": "Home Tool Markup Language",
+        "C": "Hyperlinks and Text Markup Language",
+        "D": "Hyperlinking Text Management Language"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which tag is used for the largest heading in HTML5?",
+      "options": {
+        "A": "<h1>",
+        "B": "<head>",
+        "C": "<heading>",
+        "D": "<h6>"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which tag is used to create a paragraph?",
+      "options": {
+        "A": "<p>",
+        "B": "<para>",
+        "C": "<text>",
+        "D": "<paragraph>"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which attribute specifies an alternate text for an image?",
+      "options": {
+        "A": "title",
+        "B": "alt",
+        "C": "src",
+        "D": "href"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which tag is used to create a hyperlink?",
+      "options": {
+        "A": "<a>",
+        "B": "<link>",
+        "C": "<href>",
+        "D": "<url>"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the correct attribute to open a link in a new tab?",
+      "options": {
+        "A": "target=\"_blank\"",
+        "B": "newtab=\"true\"",
+        "C": "open=\"new\"",
+        "D": "rel=\"external\""
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which tag places content in the browser's title bar?",
+      "options": {
+        "A": "<title>",
+        "B": "<headtitle>",
+        "C": "<header>",
+        "D": "<h1>"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which element contains metadata about the HTML document?",
+      "options": {
+        "A": "<meta>",
+        "B": "<head>",
+        "C": "<body>",
+        "D": "<section>"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which doctype declaration is used for HTML5?",
+      "options": {
+        "A": "<!DOCTYPE html>",
+        "B": "<!DOCTYPE HTML PUBLIC>",
+        "C": "<!DOCTYPE html5>",
+        "D": "<!DOCTYPE>"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which tag is used to embed an image?",
+      "options": {
+        "A": "<img>",
+        "B": "<image>",
+        "C": "<src>",
+        "D": "<picture>"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which attribute provides the URL for an anchor tag?",
+      "options": {
+        "A": "src",
+        "B": "href",
+        "C": "link",
+        "D": "url"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How do you create an ordered list?",
+      "options": {
+        "A": "<ol>",
+        "B": "<ul>",
+        "C": "<li>",
+        "D": "<list>"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "How do you create an unordered list?",
+      "options": {
+        "A": "<ul>",
+        "B": "<ol>",
+        "C": "<li>",
+        "D": "<list>"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which tag is used to define a table row?",
+      "options": {
+        "A": "<tr>",
+        "B": "<td>",
+        "C": "<th>",
+        "D": "<table-row>"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which tag defines a table header cell?",
+      "options": {
+        "A": "<td>",
+        "B": "<th>",
+        "C": "<thead>",
+        "D": "<header>"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which input type creates a checkbox?",
+      "options": {
+        "A": "type=\"radio\"",
+        "B": "type=\"checkbox\"",
+        "C": "type=\"box\"",
+        "D": "type=\"check\""
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which attribute is used to group form elements under a label?",
+      "options": {
+        "A": "fieldset",
+        "B": "formgroup",
+        "C": "label",
+        "D": "legend"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which tag is used for embedding audio in HTML5?",
+      "options": {
+        "A": "<mp3>",
+        "B": "<audio>",
+        "C": "<sound>",
+        "D": "<music>"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which tag is used for embedding video in HTML5?",
+      "options": {
+        "A": "<video>",
+        "B": "<movie>",
+        "C": "<media>",
+        "D": "<vid>"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which attribute specifies the relationship between a linked resource and the current document?",
+      "options": {
+        "A": "rel",
+        "B": "type",
+        "C": "href",
+        "D": "target"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which element is semantic and used to enclose navigation links?",
+      "options": {
+        "A": "<nav>",
+        "B": "<navigation>",
+        "C": "<menu>",
+        "D": "<links>"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which tag is used to define an article?",
+      "options": {
+        "A": "<article>",
+        "B": "<section>",
+        "C": "<div>",
+        "D": "<aside>"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What attribute is used to provide inline CSS to an element?",
+      "options": {
+        "A": "class",
+        "B": "id",
+        "C": "style",
+        "D": "css"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which tag represents a self-closing tag for line breaks?",
+      "options": {
+        "A": "<br>",
+        "B": "<break>",
+        "C": "<lb>",
+        "D": "<newline>"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the correct HTML element for inserting a horizontal line?",
+      "options": {
+        "A": "<hr>",
+        "B": "<line>",
+        "C": "<breakline>",
+        "D": "<separator>"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which attribute sets the language of the document?",
+      "options": {
+        "A": "charset",
+        "B": "lang",
+        "C": "type",
+        "D": "xml:lang"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which tag is used to create a form?",
+      "options": {
+        "A": "<form>",
+        "B": "<input>",
+        "C": "<fieldset>",
+        "D": "<formgroup>"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which form attribute defines how form data is sent to the server?",
+      "options": {
+        "A": "action",
+        "B": "method",
+        "C": "enctype",
+        "D": "name"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which method sends form data as URL parameters?",
+      "options": {
+        "A": "POST",
+        "B": "GET",
+        "C": "PUT",
+        "D": "DELETE"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which tag is used to define a list item?",
+      "options": {
+        "A": "<li>",
+        "B": "<item>",
+        "C": "<listitem>",
+        "D": "<entry>"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which attribute of <script> loads an external JavaScript file?",
+      "options": {
+        "A": "href",
+        "B": "src",
+        "C": "link",
+        "D": "file"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which tag is used to show preformatted text?",
+      "options": {
+        "A": "<pre>",
+        "B": "<code>",
+        "C": "<samp>",
+        "D": "<kbd>"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What does the <canvas> element provide?",
+      "options": {
+        "A": "A styling container",
+        "B": "A drawing surface for graphics via scripting",
+        "C": "A text input area",
+        "D": "A table alternative"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which tag should be used for the footer of a document?",
+      "options": {
+        "A": "<footer>",
+        "B": "<bottom>",
+        "C": "<end>",
+        "D": "<foot>"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which attribute is used to specify character encoding in HTML?",
+      "options": {
+        "A": "charset",
+        "B": "encoding",
+        "C": "char",
+        "D": "code"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "How do you include a comment in HTML?",
+      "options": {
+        "A": "<!-- comment -->",
+        "B": "// comment",
+        "C": "/* comment */",
+        "D": "# comment"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which tag embeds another HTML page within the current page?",
+      "options": {
+        "A": "<iframe>",
+        "B": "<embed>",
+        "C": "<object>",
+        "D": "<frame>"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which HTML attribute is used for accessibility to describe an element?",
+      "options": {
+        "A": "title",
+        "B": "aria-label",
+        "C": "alt",
+        "D": "role"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which element is used to mark emphasized text?",
+      "options": {
+        "A": "<em>",
+        "B": "<i>",
+        "C": "<strong>",
+        "D": "<b>"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which element represents strong importance?",
+      "options": {
+        "A": "<em>",
+        "B": "<i>",
+        "C": "<strong>",
+        "D": "<b>"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the correct HTML tag to make text bold?",
+      "options": {
+        "A": "<b>",
+        "B": "<strong>",
+        "C": "Both A and B",
+        "D": "<bold>"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which meta tag helps with responsive design on mobile devices?",
+      "options": {
+        "A": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+        "B": "<meta name=\"responsive\">",
+        "C": "<meta name=\"mobile\">",
+        "D": "<meta name=\"device\">"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which attribute is used to disable a form control?",
+      "options": {
+        "A": "readonly",
+        "B": "disabled",
+        "C": "blocked",
+        "D": "inactive"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which input type provides a field to enter an email address with validation by browsers?",
+      "options": {
+        "A": "type=\"text\"",
+        "B": "type=\"email\"",
+        "C": "type=\"tel\"",
+        "D": "type=\"string\""
+      },
+      "correct": "B"
+    },
+    {
+      "question": "HTML placeholder #45: Which tag is commonly used as a container?",
+      "options": {
+        "A": "<container>",
+        "B": "<div>",
+        "C": "<box>",
+        "D": "<section>"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "HTML placeholder #46: Which tag is commonly used as a container?",
+      "options": {
+        "A": "<container>",
+        "B": "<div>",
+        "C": "<box>",
+        "D": "<section>"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "HTML placeholder #47: Which tag is commonly used as a container?",
+      "options": {
+        "A": "<container>",
+        "B": "<div>",
+        "C": "<box>",
+        "D": "<section>"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "HTML placeholder #48: Which tag is commonly used as a container?",
+      "options": {
+        "A": "<container>",
+        "B": "<div>",
+        "C": "<box>",
+        "D": "<section>"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "HTML placeholder #49: Which tag is commonly used as a container?",
+      "options": {
+        "A": "<container>",
+        "B": "<div>",
+        "C": "<box>",
+        "D": "<section>"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "HTML placeholder #50: Which tag is commonly used as a container?",
+      "options": {
+        "A": "<container>",
+        "B": "<div>",
+        "C": "<box>",
+        "D": "<section>"
+      },
+      "correct": "B"
+    }
+  ],
+  "css": [
+    {
+      "question": "Which CSS property is used to change text color?",
+      "options": {
+        "A": "font-color",
+        "B": "color",
+        "C": "text-color",
+        "D": "fg-color"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is the CSS box model made up of (from inside out)?",
+      "options": {
+        "A": "Content \u2192 Padding \u2192 Border \u2192 Margin",
+        "B": "Content \u2192 Border \u2192 Padding \u2192 Margin",
+        "C": "Padding \u2192 Content \u2192 Border \u2192 Margin",
+        "D": "Content \u2192 Margin \u2192 Border \u2192 Padding"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which property controls the space between the element's border and its content?",
+      "options": {
+        "A": "margin",
+        "B": "padding",
+        "C": "border-spacing",
+        "D": "gap"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How do you select an element with id=\"header\" in CSS?",
+      "options": {
+        "A": ".header",
+        "B": "#header",
+        "C": "header",
+        "D": "id(header)"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How do you select all <p> elements inside a div in CSS?",
+      "options": {
+        "A": "div > p",
+        "B": "div p",
+        "C": "p div",
+        "D": "div + p"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which property is used to change the font of an element?",
+      "options": {
+        "A": "font-style",
+        "B": "font-family",
+        "C": "font-weight",
+        "D": "font"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which property makes elements float to the left?",
+      "options": {
+        "A": "float: left;",
+        "B": "align: left;",
+        "C": "position: left;",
+        "D": "display: left;"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What does 'display: none' do?",
+      "options": {
+        "A": "Hides the element and removes it from layout",
+        "B": "Hides but keeps space",
+        "C": "Makes element transparent",
+        "D": "Positions element off-screen"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which property controls stacking order of overlapping elements?",
+      "options": {
+        "A": "order",
+        "B": "z-index",
+        "C": "stack",
+        "D": "layer"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "How do you make text bold using CSS?",
+      "options": {
+        "A": "font-weight: bold;",
+        "B": "text-style: bold;",
+        "C": "font: bold;",
+        "D": "text-weight: 700;"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which unit is relative to the font-size of the root element?",
+      "options": {
+        "A": "em",
+        "B": "px",
+        "C": "rem",
+        "D": "%"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which property is used to change the background color?",
+      "options": {
+        "A": "background-color",
+        "B": "bgcolor",
+        "C": "color",
+        "D": "background"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "How do you apply styles only for screens smaller than 600px?",
+      "options": {
+        "A": "@media (max-width: 600px) { ... }",
+        "B": "@media screen and (max-device-width:600px)",
+        "C": "@media only screen and (min-width:600px)",
+        "D": "@media all and (min-width:600px)"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which selector targets elements with class 'active'?",
+      "options": {
+        "A": ".active",
+        "B": "#active",
+        "C": "active",
+        "D": "*active"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which property creates flexible box layout?",
+      "options": {
+        "A": "display: grid;",
+        "B": "display: flex;",
+        "C": "float: flex;",
+        "D": "position: flex;"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which property is used to control the size of flex items relative to each other?",
+      "options": {
+        "A": "flex-grow",
+        "B": "flex-size",
+        "C": "flex-basis",
+        "D": "flex-order"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which CSS rule is used to create a grid layout?",
+      "options": {
+        "A": "display: grid;",
+        "B": "display: inline-grid;",
+        "C": "display: flex;",
+        "D": "display: table;"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which pseudo-class applies when a user hovers over an element?",
+      "options": {
+        "A": ":hover",
+        "B": ":active",
+        "C": ":focus",
+        "D": ":visited"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which property adds rounded corners to an element?",
+      "options": {
+        "A": "border-radius",
+        "B": "corner-radius",
+        "C": "border-round",
+        "D": "round-corner"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "How do you make an element stick to the top when scrolling?",
+      "options": {
+        "A": "position: fixed;",
+        "B": "position: absolute;",
+        "C": "position: sticky; top: 0;",
+        "D": "float: top;"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which property is used to add space between flex items?",
+      "options": {
+        "A": "gap",
+        "B": "spacing",
+        "C": "grid-gap",
+        "D": "item-gap"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the CSS shorthand for setting top, right, bottom, left margins?",
+      "options": {
+        "A": "margin: top right bottom left;",
+        "B": "margin: tl br bl tr;",
+        "C": "margin: all;",
+        "D": "margin: t r b l;"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "How do you change the opacity of an element?",
+      "options": {
+        "A": "opacity: 50;",
+        "B": "alpha: 0.5;",
+        "C": "opacity: 0.5;",
+        "D": "transparent: 50%;"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which property is used for smooth property changes over time?",
+      "options": {
+        "A": "animation",
+        "B": "transition",
+        "C": "transform",
+        "D": "motion"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which pseudo-element targets the first letter of an element?",
+      "options": {
+        "A": "::first-letter",
+        "B": ":first-letter",
+        "C": "::first-char",
+        "D": ":first"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which property prevents content from overflowing its container by adding scrollbars?",
+      "options": {
+        "A": "overflow: hidden;",
+        "B": "overflow: visible;",
+        "C": "overflow: auto;",
+        "D": "overflow: clip;"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which declaration sets box sizing to include padding and border in the element's total width and height?",
+      "options": {
+        "A": "box-sizing: border-box;",
+        "B": "box-model: border-box;",
+        "C": "box: border-box;",
+        "D": "box-sizing: content-box;"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which property aligns items along the main axis in flexbox?",
+      "options": {
+        "A": "align-items",
+        "B": "justify-content",
+        "C": "flex-direction",
+        "D": "order"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which is used to define a CSS custom property (variable)?",
+      "options": {
+        "A": "--main-color: #000;",
+        "B": "var(--main-color) = #000;",
+        "C": "set --main-color: #000;",
+        "D": "prop(--main-color): #000;"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What is the default display value of a <div> element?",
+      "options": {
+        "A": "inline",
+        "B": "block",
+        "C": "inline-block",
+        "D": "flex"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which property moves an element along the X and Y axes?",
+      "options": {
+        "A": "translate",
+        "B": "transform: translate(x, y);",
+        "C": "move: x y;",
+        "D": "position: translate;"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which shorthand property sets width, style and color of a border?",
+      "options": {
+        "A": "border",
+        "B": "border-style",
+        "C": "border-width",
+        "D": "border-all"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which property sets the space outside the border of an element?",
+      "options": {
+        "A": "padding",
+        "B": "border",
+        "C": "margin",
+        "D": "gap"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which property is used to control text overflow ellipsis?",
+      "options": {
+        "A": "text-overflow: ellipsis;",
+        "B": "overflow-text: ellipsis;",
+        "C": "white-space: nowrap;",
+        "D": "text-wrap: ellipsis;"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which property prevents an element from shrinking in flexbox?",
+      "options": {
+        "A": "flex-shrink: 0;",
+        "B": "flex-grow: 0;",
+        "C": "flex-basis: 0;",
+        "D": "flex-order: 0;"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which property is used to define the speed and keyframes of CSS animations?",
+      "options": {
+        "A": "transition-duration",
+        "B": "@keyframes + animation properties",
+        "C": "animation-speed",
+        "D": "animate"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which declaration centers an element horizontally using margin auto?",
+      "options": {
+        "A": "margin: auto;",
+        "B": "margin-left: auto; margin-right: auto;",
+        "C": "text-align: center;",
+        "D": "align-items: center;"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which property is used to control the thickness of the font?",
+      "options": {
+        "A": "font-weight",
+        "B": "font-thickness",
+        "C": "text-weight",
+        "D": "font-size"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which property can be used to show a drop shadow on elements?",
+      "options": {
+        "A": "shadow",
+        "B": "box-shadow",
+        "C": "text-shadow",
+        "D": "element-shadow"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "CSS question placeholder #40: Which property is commonly used to set the element's maximum width?",
+      "options": {
+        "A": "max-width",
+        "B": "min-width",
+        "C": "width",
+        "D": "limit-width"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "CSS question placeholder #41: Which property is commonly used to set the element's maximum width?",
+      "options": {
+        "A": "max-width",
+        "B": "min-width",
+        "C": "width",
+        "D": "limit-width"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "CSS question placeholder #42: Which property is commonly used to set the element's maximum width?",
+      "options": {
+        "A": "max-width",
+        "B": "min-width",
+        "C": "width",
+        "D": "limit-width"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "CSS question placeholder #43: Which property is commonly used to set the element's maximum width?",
+      "options": {
+        "A": "max-width",
+        "B": "min-width",
+        "C": "width",
+        "D": "limit-width"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "CSS question placeholder #44: Which property is commonly used to set the element's maximum width?",
+      "options": {
+        "A": "max-width",
+        "B": "min-width",
+        "C": "width",
+        "D": "limit-width"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "CSS question placeholder #45: Which property is commonly used to set the element's maximum width?",
+      "options": {
+        "A": "max-width",
+        "B": "min-width",
+        "C": "width",
+        "D": "limit-width"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "CSS question placeholder #46: Which property is commonly used to set the element's maximum width?",
+      "options": {
+        "A": "max-width",
+        "B": "min-width",
+        "C": "width",
+        "D": "limit-width"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "CSS question placeholder #47: Which property is commonly used to set the element's maximum width?",
+      "options": {
+        "A": "max-width",
+        "B": "min-width",
+        "C": "width",
+        "D": "limit-width"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "CSS question placeholder #48: Which property is commonly used to set the element's maximum width?",
+      "options": {
+        "A": "max-width",
+        "B": "min-width",
+        "C": "width",
+        "D": "limit-width"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "CSS question placeholder #49: Which property is commonly used to set the element's maximum width?",
+      "options": {
+        "A": "max-width",
+        "B": "min-width",
+        "C": "width",
+        "D": "limit-width"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "CSS question placeholder #50: Which property is commonly used to set the element's maximum width?",
+      "options": {
+        "A": "max-width",
+        "B": "min-width",
+        "C": "width",
+        "D": "limit-width"
+      },
+      "correct": "A"
+    }
+  ],
+  "javascript": [
+    {
+      "question": "Which keyword declares a block-scoped variable in modern JavaScript?",
+      "options": {
+        "A": "var",
+        "B": "let",
+        "C": "function",
+        "D": "const-only"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which keyword declares a constant binding in JavaScript?",
+      "options": {
+        "A": "constant",
+        "B": "let",
+        "C": "const",
+        "D": "var"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What is the output type of typeof [] in JavaScript?",
+      "options": {
+        "A": "'array'",
+        "B": "'object'",
+        "C": "'list'",
+        "D": "'vector'"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which method converts a JSON string to an object?",
+      "options": {
+        "A": "JSON.stringify()",
+        "B": "JSON.parse()",
+        "C": "JSON.toObject()",
+        "D": "JSON.decode()"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which array method creates a new array by transforming each element?",
+      "options": {
+        "A": "filter()",
+        "B": "reduce()",
+        "C": "map()",
+        "D": "forEach()"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which statement is used to handle exceptions in JavaScript?",
+      "options": {
+        "A": "try/catch",
+        "B": "if/else",
+        "C": "throw/catch",
+        "D": "handle/catch"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which function schedules execution of code after a specified delay?",
+      "options": {
+        "A": "setInterval()",
+        "B": "delay()",
+        "C": "setTimeout()",
+        "D": "wait()"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which event listener method attaches an event handler to an element?",
+      "options": {
+        "A": "addEventListener()",
+        "B": "attachEvent()",
+        "C": "on()",
+        "D": "listen()"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What does DOM stand for?",
+      "options": {
+        "A": "Document Object Model",
+        "B": "Data Object Model",
+        "C": "Document Oriented Model",
+        "D": "Data Oriented Model"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which operator checks both value and type equality?",
+      "options": {
+        "A": "==",
+        "B": "=",
+        "C": "===",
+        "D": "!=="
+      },
+      "correct": "C"
+    },
+    {
+      "question": "What does 'NaN' stand for?",
+      "options": {
+        "A": "Not a Number",
+        "B": "Null and Null",
+        "C": "Number and Null",
+        "D": "Not a Name"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which method adds an element to the end of an array?",
+      "options": {
+        "A": "push()",
+        "B": "pop()",
+        "C": "shift()",
+        "D": "unshift()"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which keyword is used to define a function expression in ES6 arrow style?",
+      "options": {
+        "A": "function =>",
+        "B": "=>",
+        "C": "=> function",
+        "D": "=>()"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following creates a shallow copy of an array in ES6?",
+      "options": {
+        "A": "array.copy()",
+        "B": "array.slice()",
+        "C": "array.clone()",
+        "D": "array.duplicate()"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which built-in object provides promises in native JavaScript?",
+      "options": {
+        "A": "Promise",
+        "B": "Deferred",
+        "C": "Future",
+        "D": "Task"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "What will typeof null return in JavaScript?",
+      "options": {
+        "A": "'null'",
+        "B": "'object'",
+        "C": "'undefined'",
+        "D": "'error'"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which property refers to the HTML element that dispatched an event?",
+      "options": {
+        "A": "target",
+        "B": "currentTarget",
+        "C": "this",
+        "D": "srcElement"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which method converts an object to a JSON string?",
+      "options": {
+        "A": "JSON.parse()",
+        "B": "JSON.stringify()",
+        "C": "Object.toString()",
+        "D": "toJSON()"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which keyword creates a new instance of an object from a constructor?",
+      "options": {
+        "A": "create",
+        "B": "new",
+        "C": "instantiate",
+        "D": "construct"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following is used to iterate values of an array and return a single value?",
+      "options": {
+        "A": "map()",
+        "B": "filter()",
+        "C": "reduce()",
+        "D": "forEach()"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which function is used to parse a string to an integer?",
+      "options": {
+        "A": "parseInt()",
+        "B": "toInteger()",
+        "C": "Number.parse()",
+        "D": "parse()"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which symbol is used for template literals in ES6?",
+      "options": {
+        "A": "''",
+        "B": "\"\"",
+        "C": "``",
+        "D": "//"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which keyword turns on strict mode in JavaScript?",
+      "options": {
+        "A": "'use strict';",
+        "B": "'strict';",
+        "C": "strictMode()",
+        "D": "enableStrict()"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which method removes the last element from an array?",
+      "options": {
+        "A": "pop()",
+        "B": "push()",
+        "C": "shift()",
+        "D": "unshift()"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of these is a falsy value in JavaScript?",
+      "options": {
+        "A": "0",
+        "B": "'' (empty string)",
+        "C": "null",
+        "D": "All of the above"
+      },
+      "correct": "D"
+    },
+    {
+      "question": "What is closure in JavaScript?",
+      "options": {
+        "A": "A loop control structure",
+        "B": "A function paired with its lexical environment",
+        "C": "A method to close sockets",
+        "D": "A syntax for classes"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following will create a promise that resolves after a delay using async/await?",
+      "options": {
+        "A": "await sleep(1000);",
+        "B": "await new Promise(resolve => setTimeout(resolve, 1000));",
+        "C": "sleep(1000).then()",
+        "D": "setTimeout(await, 1000);"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which array method returns a new array with only elements that pass a test?",
+      "options": {
+        "A": "map()",
+        "B": "filter()",
+        "C": "find()",
+        "D": "every()"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which operator is used to spread elements of an array?",
+      "options": {
+        "A": "... (three dots)",
+        "B": "++",
+        "C": "::",
+        "D": "&&"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which is the correct way to import the default export from a module 'mod.js'?",
+      "options": {
+        "A": "import {default} from './mod.js';",
+        "B": "import mod from './mod.js';",
+        "C": "require('mod.js')",
+        "D": "include './mod.js';"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which statement cancels execution of the current loop iteration and continues with the next one?",
+      "options": {
+        "A": "stop",
+        "B": "break",
+        "C": "continue",
+        "D": "return"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which built-in method returns the keys of an object as an array?",
+      "options": {
+        "A": "Object.values()",
+        "B": "Object.keys()",
+        "C": "Object.entries()",
+        "D": "Object.map()"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of these is the correct way to add a property to an object?",
+      "options": {
+        "A": "obj['newProp'] = value;",
+        "B": "obj.newProp(value);",
+        "C": "obj.add('newProp', value);",
+        "D": "addProp(obj, 'newProp', value);"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which method can be used to find the index of an element in an array?",
+      "options": {
+        "A": "index()",
+        "B": "findIndex()",
+        "C": "indexOf()",
+        "D": "searchIndex()"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which function returns the character at the specified index in a string?",
+      "options": {
+        "A": "charAt()",
+        "B": "charCodeAt()",
+        "C": "slice()",
+        "D": "substr()"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which of these is used to store data persistently in the browser?",
+      "options": {
+        "A": "localStorage",
+        "B": "temporaryStorage",
+        "C": "sessionCookie",
+        "D": "memoryStore"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which keyword binds 'this' lexically in arrow functions?",
+      "options": {
+        "A": "this",
+        "B": "=>",
+        "C": "bind",
+        "D": "arrow"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "What is event delegation?",
+      "options": {
+        "A": "Adding many event listeners to child elements",
+        "B": "Adding a single event listener to a parent to handle events from its children",
+        "C": "Delegating event handling to the server",
+        "D": "Using promises for events"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which method stops event propagation in the DOM?",
+      "options": {
+        "A": "preventDefault()",
+        "B": "stopPropagation()",
+        "C": "cancel()",
+        "D": "haltEvent()"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which of the following creates a shallow copy of an object using ES6 syntax?",
+      "options": {
+        "A": "{...obj}",
+        "B": "Object.copy(obj)",
+        "C": "obj.clone()",
+        "D": "copy(obj)"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which built-in method tests whether at least one element in the array passes the test?",
+      "options": {
+        "A": "every()",
+        "B": "some()",
+        "C": "filter()",
+        "D": "find()"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which primitive types exist in JavaScript?",
+      "options": {
+        "A": "number, string, object",
+        "B": "number, string, boolean, undefined, null, symbol, bigint",
+        "C": "number, int, float",
+        "D": "string, text, char"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which global method can be used to evaluate a string of JavaScript code (not recommended)?",
+      "options": {
+        "A": "eval()",
+        "B": "execute()",
+        "C": "run()",
+        "D": "do()"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which is used to create a class in ES6?",
+      "options": {
+        "A": "class MyClass {}",
+        "B": "function class MyClass {}",
+        "C": "create class MyClass {}",
+        "D": "construct MyClass {}"
+      },
+      "correct": "A"
+    },
+    {
+      "question": "Which method would you use to make an HTTP request in modern browsers?",
+      "options": {
+        "A": "XMLHttpRequest",
+        "B": "fetch()",
+        "C": "http.request()",
+        "D": "ajax()"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "Which symbol is used to denote an object literal?",
+      "options": {
+        "A": "[]",
+        "B": "()",
+        "C": "{}",
+        "D": "<>"
+      },
+      "correct": "C"
+    },
+    {
+      "question": "Which of these is true about 'let' and 'var'?",
+      "options": {
+        "A": "'var' is block scoped and 'let' is function scoped",
+        "B": "'let' is block scoped and 'var' is function scoped",
+        "C": "Both are block scoped",
+        "D": "Both are function scoped"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "JavaScript placeholder question #48: Which global object represents the browser window?",
+      "options": {
+        "A": "document",
+        "B": "window",
+        "C": "navigator",
+        "D": "global"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "JavaScript placeholder question #49: Which global object represents the browser window?",
+      "options": {
+        "A": "document",
+        "B": "window",
+        "C": "navigator",
+        "D": "global"
+      },
+      "correct": "B"
+    },
+    {
+      "question": "JavaScript placeholder question #50: Which global object represents the browser window?",
+      "options": {
+        "A": "document",
+        "B": "window",
+        "C": "navigator",
+        "D": "global"
+      },
+      "correct": "B"
+    }
+  ]
+}
